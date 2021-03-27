@@ -24,7 +24,7 @@ class NitroGen: # Initialise the class
         if os.name == "nt": # If the system is windows
             os.system("title Nitro Generator and Checker - Made by Drillenissen#4268") # Change the title
         else: # Or if it is unix
-            print(f'\33]0;Nitro Generator and Checker - Made by Drillenissen#4268\a', end='', flush=True) # Update title of command prompt
+            print(f'\33]0;Nitro Generator and Checker - this shit fast lol\a', end='', flush=True) # Update title of command prompt
 
         print(""" █████╗ ███╗   ██╗ ██████╗ ███╗   ██╗██╗██╗  ██╗
 ██╔══██╗████╗  ██║██╔═══██╗████╗  ██║██║╚██╗██╔╝
@@ -34,7 +34,7 @@ class NitroGen: # Initialise the class
 ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝
                                                         """) # Print the title card
         time.sleep(2) # Wait a few seconds
-        self.slowType("Made by: Drillenissen#4268 && Benz#4947", .02) # Print who developed the code
+        self.slowType("ayo this checker bussin?", .02) # Print who developed the code
         time.sleep(1) # Wait a little more
         self.slowType("\nInput How Many Codes to Generate and Check: ", .02, newLine = False) # Print the first question
 
